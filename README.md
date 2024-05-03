@@ -1,5 +1,7 @@
-localhost:5000 -> for CORS problem change browser://flags
+for CORS problem change browser://flags
 
--   **Insecure origins treated as secure** as **Enabled**
--   **Allow invalid certificates for resources loaded from localhost.** as **Enabled**
--   **Block insecure private network requests** as **Default**
+| Features                                                        |                                                           Listed                                                            |
+| --------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------: |
+| Insecure origins treated as secure                              | Enabled (You can add <br> `http://localhost,http://localhost:5000,http://notesapp-v1.dicodingacademy.com`on origin section) |
+| Allow invalid certificates for resources loaded from localhost. |                                                           Enabled                                                           |
+| Block insecure private network requests                         |                                                           Default                                                           |
