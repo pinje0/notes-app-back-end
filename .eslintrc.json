@@ -12,5 +12,6 @@
     // "linebreak-style": ["error", "windows"],
     "linebreak-style": 0,
     "no-underscore-dangle": ["error", { "allow": ["__place"] }]
+    // "no-underscore-dangle": 0
   }
 }
